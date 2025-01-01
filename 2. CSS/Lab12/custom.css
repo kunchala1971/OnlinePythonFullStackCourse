@@ -1,0 +1,72 @@
+.main-div {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+.top-left {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+}
+.top-right {
+	position: relative;
+  top: -20px;
+  left: 180px;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+}
+.bottom-left {
+	position: relative;
+  top: 140px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
+.bottom-right {
+	position: relative;
+  top: 120px;
+  left: 180px;
+  width: 20px;
+  height: 20px;
+  background-color: purple;
+}
+.main-row{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 200px;
+	height: 200px;
+	background-color: aqua;
+}
+.box{
+width:20px;
+	height: 20px;
+}
+.top-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.bottom-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
+.green{
+	background-color: green;
+}
+.purple
+{
+	background-color: purple;
+}

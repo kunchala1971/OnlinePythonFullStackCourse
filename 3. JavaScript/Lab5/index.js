@@ -1,0 +1,17 @@
+let code=100;
+let sname="Ram";
+let fees=4500.50;
+let isActive=true;
+let a=[1,2,3,4];
+let person={id:100,name:"Ram"};
+let c=null;
+let d;
+console.log(code,typeof(code));
+console.log(sname,typeof(sname));
+console.log(fees,typeof(fees));
+console.log(isActive,typeof(isActive));
+console.log(a,typeof(a));
+console.log(person,typeof(person));
+console.log(c,typeof(c));
+console.log(d,typeof(d));
+console.log(e,typeof(e));

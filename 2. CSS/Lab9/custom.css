@@ -1,0 +1,43 @@
+.btn-primary{
+	color:skyblue;
+	background-color: black;
+	padding:5px 10px 5px 10px;
+	width: 150px;
+	cursor: pointer;
+}
+/* a:link{
+	color:green;
+}
+a:visited{
+	color:red;
+}
+a:hover{
+	cursor: pointer;
+}
+a:active{
+	background-color: black;
+} */
+ *{
+	box-sizing: border-box;
+	padding: 0px;
+	margin:0px;
+ }
+ ul>li{
+	list-style: none;
+	display: inline;
+	margin-left:10px;
+	padding:5px 0px;
+	font-size: large;
+ }
+ a:link{
+	color:white;
+	text-decoration: none;
+ }
+ a:visited{
+	color:white;
+ }
+ nav{
+	background-color: black;
+	width: 100vw;
+	height:20px;
+ }

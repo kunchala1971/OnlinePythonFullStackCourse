@@ -1,0 +1,25 @@
+*{
+	box-sizing: border-box;
+	padding:0px;
+	margin:0px;
+}
+.para {
+	color: white;
+	background-color: black;
+	padding:5px;
+}
+.para-center{
+	color:aqua;
+	background-color: black;
+	padding:5px;
+	text-align: center;
+}
+#para-right{
+	color:limegreen !important;
+	background-color: black;
+	padding:5px;
+	text-align: right;
+}
+p{
+	color:red;
+}

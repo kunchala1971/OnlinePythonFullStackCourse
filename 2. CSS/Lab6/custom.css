@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+	padding:0px;
+	margin:0px;
+}
+.with-box{
+border-style:solid;
+border-width:10px;
+min-width: 500px;
+width: 100vw;
+height: 100vh;
+border-color:red;
+background-color: aqua;
+/* padding:10px 40px 30px 50px; */
+/* margin:10px 20px 30px 40px; */
+/* margin-top:10px;
+margin-right:20px;
+margin-bottom: 30px;
+margin-left:40px; */
+}
+.with-box1{
+	border-style:solid;
+	border-width:10px;
+	min-width: 500px;
+	width: 50%;
+	height: 50%;
+	border-color:rgb(45, 29, 130);
+	background-color: aqua;
+	margin:auto;
+
+	}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Inline</title>
+
+    <!--
+	Style sheets 3 types
+	1.Inline Style
+	2.Internal Style Sheet
+	selector: h1,p,div,pre,
+	h1{
+	property:value;
+	background-color:red;
+	font-size:16px;
+	font-weight:900;
+	}
+	-->
+    <style>
+      article {
+        background-color: aqua;
+        padding: 10px;
+      }
+      header {
+        background: white;
+        padding: 2px 10px;
+      }
+      h1 {
+        color: blue;
+      }
+      p {
+        background: black;
+        color: white;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>What is HTML ?</h1>
+      </header>
+      <p >
+        HTML stands for Hypertext Markup Language, and it's a text-based code
+        that web browsers use to structure and display web pages
+      </p>
+    </article>
+    <article>
+      <header>
+        <h1>What is HTML ?</h1>
+      </header>
+      <p style="background: black; color: white; padding: 10px">
+        HTML stands for Hypertext Markup Language, and it's a text-based code
+        that web browsers use to structure and display web pages
+      </p>
+    </article>
+		<article style="background:red;">
+      <header>
+        <h1>What is HTML ?</h1>
+      </header>
+      <p style="background: black; color: white; padding: 10px">
+        HTML stands for Hypertext Markup Language, and it's a text-based code
+        that web browsers use to structure and display web pages
+      </p>
+    </article>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	/* flex-wrap: wrap; */
+	/* flex-direction: row-reverse; */
+	/* justify-content: flex-start; */
+	/* justify-content: flex-end; */
+	/* justify-content: space-around; */
+	/* justify-content: space-evenly; */
+	justify-content: space-between;
+	/* align-items:flex-start; */
+	/* align-items:center; */
+	align-items:flex-start;
+	width: 100vw;
+	height: 100vh;
+	background-color: aqua;
+}
+.item1{
+	order: 1;
+}
+.item2{
+	order:2;
+}

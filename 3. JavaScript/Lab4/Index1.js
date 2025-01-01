@@ -1,0 +1,13 @@
+let a=10;
+let name="Srinivasa";
+let b=3.1416;
+let isActive=true;
+let c=[1,2,3,4,5];
+let person={code:1,name:"Rajesh"};
+let x=null;
+console.log(a,typeof(a));
+console.log(b,typeof(b));
+console.log(name,typeof(name));
+console.log(c,typeof(c));
+console.log(person,typeof(person));
+console.log(x,typeof(x));

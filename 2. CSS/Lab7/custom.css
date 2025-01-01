@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.border-outline{
+	background-color: aqua;
+	border:dotted 5px midnightblue;
+	margin:20px;
+	/*outline-style: groove;
+	outline-width: 10px;
+	outline-color: red;
+	outline-offset: 5px;*/
+	outline: groove 10px red;
+	outline-offset: 5px;
+
+}
+.my-button{
+	padding: 5px 15px;
+	margin: 10px;
+	background-color: black;
+	color:lime;
+	border-radius: 10px;
+}
+.my-button:hover{
+	background-color: white;
+	outline:solid 2px black;
+}
+p{
+	background-color: black;
+	color:limegreen;
+	padding:12px 10px;
+	/*text-align:center;
+	text-align:right;
+	text-align:left;*/
+	text-decoration:underline;
+	text-transform: capitalize;
+	text-indent: 10px;
+	/*letter-spacing: 2px;*/
+	line-height: 1.5;
+	word-spacing: 5px;
+	white-space: nowrap;
+
+}
+h1{
+	font-size:2rem;
+	font-weight: 900;
+	font-style: oblique;
+	/* font-variant: small-caps; */
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-shadow: 3px 3px 5px rgb(149, 28, 28);
+}

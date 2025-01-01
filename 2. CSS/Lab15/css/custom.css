@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+	padding:0px;
+	margin:0px;
+}
+.main{
+	padding:0px;
+	margin:0px;
+}
+nav{
+	position: fixed;
+	left:0px;
+	top:0px;
+	width: 100vw;
+	height: 40px;
+	background-color:#141f2e ;
+	padding:0px;
+	display: flex;
+	flex-direction:  row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.left-menu{
+min-width: 200px;
+}
+.right-menu{
+margin-right: 10px;
+}
+.center-menu{
+color:white;
+}
+.nav-items{
+	display: inline;
+	margin-left: 15px;
+}
+.nav-bar{
+	display: none;
+}
+a{
+	color:white;
+	font-size: 1rem;
+	text-decoration: none;
+}
+a:hover{
+	color:orange;
+	text-decoration: overline;
+}
+@media (max-width:768px) {
+	.center-menu{
+		display: none;
+	}
+	.nav-bar{
+		display: block;
+		cursor:pointer;
+		margin-right:5px;
+	}
+	nav{
+		background-color: orangered;
+	}
+	
+}
+.fa-bars{
+color:white;
+}
+.center-menu-toggle{
+	position: fixed;
+	top:40px;
+	left:0px;
+	width:100%;
+	height: auto;
+	background-color: orangered;
+	display: block;
+	transition: all 5000ms;
+	}
+
+	.center-menu-toggle>ul li{
+		display: block;
+		text-align: center;
+		padding:10px;
+	}
+	.fa-times{
+		color:white;
+	}
+	#home-tab,#articles-tab,#products-tab,#about-tab,#contact-tab{
+		background-color: black;
+		color:aqua;
+		margin:60px 10px 10px 10px ;
+		padding:10px;
+	
+	}
+	p{
+		line-height: 1.5rem;
+		font-size: 1.2rem;
+	}
+	.top-arrow{
+		position: fixed;
+		bottom: 30px;
+		right:30px;
+	}

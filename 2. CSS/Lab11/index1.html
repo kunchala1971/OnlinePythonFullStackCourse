@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positions</title>
+  </head>
+  <body style="height: 200vh">
+    <!--static,relative,fixed,absolute,sticky-->
+		<section id="main">
+			<h1>Hello</h1>
+			<div style="position: static; background-color: green; padding: 10px">
+				This is the Static Postion
+			</div>
+			<h2>Hai</h2>
+		</section>
+		<div style="position:sticky;top:10px;border:2px solid midnightblue;">
+			Sticky Position
+		</div>
+    <div
+      style="
+        position: absolute;
+        left: 200px;
+        top: 200px;
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        color: white;
+      "
+    >
+      <div style="position: relative; top: 20px; left: 20px">
+        Hai
+        <div style="position: relative; top: 20px; left: 20px">Inside</div>
+      </div>
+      <div style="position: relative; top: 50px; left: 50px">Hello</div>
+    </div>
+		<img style="position:fixed;top:20px;right:20px;" src="../images/rightarrowbullet.png" alt="arrow"/>
+		<a href="#main"><img style="position:fixed;bottom:50px;right:20px;cursor:pointer;" src="../images/rightarrowbullet.png" alt="arrow"/></a>
+
+  </body>
+</html>

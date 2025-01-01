@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+	padding:0px;
+	margin:0px;
+}
+h1{
+	background-color: aqua;
+	padding:5px;
+	margin:5px;
+}
+p{
+	background-color: bisque;
+	padding:5px;
+	margin:5px;
+}
+div{
+	background-color: skyblue;
+	padding:15px;
+}
+.back-image{
+	height: 100vh;
+	/*background-image: url("https://html.com/wp-content/uploads/flamingo.jpg");*/
+	background-image: url(../images/1.jpg);
+	/* background-repeat: repeat-x; */
+	/* background-repeat: repeat-y; */
+	background-repeat: no-repeat;
+	/* background-position: right top; */
+	/* background-position: right bottom; */
+	background-position: left bottom;
+}
+.background-image{
+	height: 100vh;
+	background: skyblue url(../images/1.jpg) no-repeat right top;
+}
+.image-fit{
+	height: 50vh;
+	width: 50vw;
+	background-repeat: no-repeat;
+	background-image: url(../images/1.jpg);
+	background-size: cover;
+	
+}
