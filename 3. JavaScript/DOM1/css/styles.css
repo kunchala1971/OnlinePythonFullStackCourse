@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.main-div {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+}
+.main-heading,
+.guess-div {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.guess-text {
+  padding: 5px 10px;
+  border: unset;
+  border-left: solid 4px red;
+}
+button {
+  margin-top: 10px;
+  padding: 5px 15px;
+  border: unset;
+  border-radius: 8px;
+  background-color: black;
+  color: aqua;
+  font-size: 1.5rem;
+}
+button:hover {
+  background-color: orangered;
+}
