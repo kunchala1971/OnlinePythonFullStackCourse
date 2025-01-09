@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+	<form >
+		<div class="main-div">
+			<div class="form-group">
+				<label>Gross Bill Amount</label>
+				<input type="number" id="gross_bill_amount"/>
+			</div>
+			<div class="form-group">
+				<label>Discount Amount</label>
+				<input type="number" id="dis_amount" onblur="getNetAmount()"/>
+			</div>
+			<div class="form-group">
+				<label>Net Amount</label>
+				<input type="number" id="net_amount"/>
+			</div>
+	
+			<div class="form-group">
+				<label>Tax %</label>
+				<input type="number" id="tax_percent" onblur="getAmount()"/>
+			</div>
+	
+			<div class="form-group">
+				<label>Amount</label>
+				<input type="number" id="amount"/>
+			</div>
+			<div class="form-group">
+				<label>Tip Amount</label>
+				<input type="number" id="tip_amount" onblur="getNetBillAmount()"/>
+			</div>
+			<div class="form-group">
+				<label>Net Bill Amount</label>
+				<input type="number" id="net_bill_amount"/>
+			</div>
+			<div class="button-group">
+				<input type="reset" class="button button-pay" value="Cancel"/>	
+			<input type="submit" class="button button-cancel" onclick="submitHandler()" value="Pay"/>	
+			
+			</div>
+		</div>
+	</form>
+
+	<script src="./js/index.js"></script>
+</body>
+</html>

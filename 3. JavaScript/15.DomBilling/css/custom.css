@@ -1,0 +1,38 @@
+
+.main-div{
+display: flex;
+flex-direction: column;
+width: 300px;
+align-items: center;
+margin: auto;
+background-color: aqua;
+padding:20px;
+border-radius: 15px;
+-webkit-box-shadow: 4px 6px 5px 1px rgba(168,156,168,1);
+-moz-box-shadow: 4px 6px 5px 1px rgba(168,156,168,1);
+box-shadow: 4px 6px 5px 1px rgba(168,156,168,1);
+}
+.form-group{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+.button-group{
+	display: flex;
+	flex-direction:row-reverse;
+	margin-top: 5px;
+}
+.button{
+	padding:8px 25px;
+	border: unset;
+	border-radius: 8px;
+	margin-left: 10px;
+}
+.button-pay{
+background-color: green;
+color:white;
+}
+.button-cancel{
+	background-color: red;
+	color:white;
+}
