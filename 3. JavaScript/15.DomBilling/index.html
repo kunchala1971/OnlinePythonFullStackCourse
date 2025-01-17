@@ -39,6 +39,14 @@
 				<label>Net Bill Amount</label>
 				<input type="number" id="net_bill_amount"/>
 			</div>
+			<div class="form-group">
+				<label>Bill Split No's</label>
+				<input type="number" id="bill_split_nos" onblur="getSplitAmount()"/>
+			</div>
+			<div class="form-group">
+				<label>For Each Amount</label>
+				<input type="number" id="for_each_amount"/>
+			</div>
 			<div class="button-group">
 				<input type="reset" class="button button-pay" value="Cancel"/>	
 			<input type="submit" class="button button-cancel" onclick="submitHandler()" value="Pay"/>	
