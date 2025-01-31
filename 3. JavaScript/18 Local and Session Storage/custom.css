@@ -1,0 +1,15 @@
+.form-group
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.button-group{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 10px;
+}
+button{
+	width: 80px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+		<link rel="stylesheet" href="./custom.css">
+  </head>
+  <body>
+    <div>
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" id="name" />
+      </div>
+			<div class="form-group">
+        <label>Roll No</label>
+        <input type="text" id="rollno" />
+      </div>
+			<div class="button-group">
+        <button onclick="saveHandler()">Save</button>
+        <button onclick="getHandler()">Get</button>
+        <button onclick="clearHandler()">Clear</button>
+        <button onclick="removeHandler()">Remove</button>
+      </div>
+    </div>
+		<script src="./localstore.js"></script>
+  </body>
+</html>
