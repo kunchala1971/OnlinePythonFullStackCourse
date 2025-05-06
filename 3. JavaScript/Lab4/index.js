@@ -7,7 +7,7 @@ let a=65,b=55;
 // {
 // 	console.log("B is Biggest Value",b);
 // }
-let result=a>b ? "A is Biggest value" : "B is a biggest Value";
+let result=a>b ? "A is Biggest value"+a : "B is a biggest Value"+b;
 console.log(result);
  result=a>b ? `A is Biggest value ${a}` : `B is a biggest Value ${b}`;
 console.log(result);

@@ -14,6 +14,7 @@ sum=a%b;
 console.log("A%B=",sum);
 sum=2**8;
 console.log("a**8",sum);
+//unary operators or Incremental and decremental
 a=10;
 console.log(a++);
 console.log(a--);

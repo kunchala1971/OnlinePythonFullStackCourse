@@ -12,4 +12,5 @@ console.log("a>=b",a>=b);
 console.log("a<=b",a<=b);
 console.log("a!=b",a!=b);
 console.log("a!=d",a!=d);
+console.log(a+b > a-b);//between two expression
 
