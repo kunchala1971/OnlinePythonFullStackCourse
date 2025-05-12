@@ -1,4 +1,4 @@
-var a=45,b=4,choice=8;
+var a=45,b=4,choice=2;
 console.log("1.Addition");
 console.log("2.Subtraction");
 console.log("3.Multiplication");

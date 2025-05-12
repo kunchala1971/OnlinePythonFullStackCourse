@@ -1,5 +1,5 @@
 //the given number prime or not
-let n = 18;
+let n = 17;
 let i = 2;
 let count = 0;
 while (i < n) {
@@ -9,5 +9,5 @@ while (i < n) {
   i++;
 }
 console.log(
-  "Count is " + count + " " + n + " " + (count === 0 ? "prime" : "notprime")
+  "Count is " + count + " " + n + " " + (count === 0 ? "prime" : "no tprime")
 );

@@ -5,3 +5,4 @@ function showMessage(person)
 }
 
 showMessage("John");
+showMessage("Ram");

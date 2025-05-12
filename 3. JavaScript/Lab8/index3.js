@@ -1,5 +1,5 @@
 //the given number prime or not
-var n = 100;
+var n = 1000;
 var i = 1;
 var count;
 for (var j = 1; j <= n; j++) {

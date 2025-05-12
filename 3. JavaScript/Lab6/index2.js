@@ -1,4 +1,5 @@
-let msg="madam";
+//Polyndrom
+let msg="malayalam";
 let revStr=msg.split("").reverse().join("");
 if(msg===revStr)
 {

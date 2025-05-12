@@ -1,5 +1,5 @@
 let playername = "Rohit";
-let score = 201;
+let score =100;
 var result = `${playername} played score is ${score}, he got rank is `;
 if (score === 0) {
   result = result + " dockout";
