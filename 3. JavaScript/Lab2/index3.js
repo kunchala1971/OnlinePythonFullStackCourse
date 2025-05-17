@@ -18,4 +18,4 @@ console.log(mydouble(10));
 
 const abc=10;
 console.log(abc);
-abc=450;
+// abc=450;

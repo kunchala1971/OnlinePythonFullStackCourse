@@ -14,6 +14,7 @@ function submitHandler()
 }
 function getNetAmount()
 {
+	//console.log("GetNetAmount Function is Activated");
 let net_amount=parseInt(grossBillAmountElement.value)-parseInt(discountAmountElement.value);
 netAmountElement.value=parseInt(net_amount);
 }

@@ -5,8 +5,8 @@ nums.pop();
 console.log(nums);
 //forEach()
 var x=0;
-nums.forEach((num)=>console.log(num));
-nums.forEach((element)=>
+nums.forEach((num)=>console.log(num));//Arrow Function
+nums.forEach((element)=> 
 	{
 		x=x+element;
 		console.log(x)

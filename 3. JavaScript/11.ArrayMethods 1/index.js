@@ -18,9 +18,13 @@ console.log(x.sort());
 //5)at:this method returns the element at the specified index in the arrya.
 console.log(x.at(0),x[0]);
 //6)fill:this method fills all the elements of an array from a start index to and end index witha static value.It can take up to three arguments
-const fruits=["Apples","Grapes","FineApple"];
-fruits.fill("Mango",1,2);
+const fruits=["Apples","Grapes","Banana","FineApple"];
+fruits.fill("Mango",1,3);
 console.log(fruits);
 const nums=[1,2,3,4,5,6];
-nums.fill(9,1,nums.length-1);
+nums.fill(0,1,nums.length-1);
 console.log(nums);
+
+let y=[1,2,3,10,11,12,13,14,20,21];
+console.log(y.sort((a,b)=>a-b));
+console.log(y.reduce((a,b)=>a+b));
