@@ -5,5 +5,6 @@ function addOne(x) {
 
 addOne(1)
   .then(addOne)     // 2
-  .then(addOne)     // 3
+  .then(addOne) //3
+  .then(addOne)   // 4
   .then(result => console.log("Final result:", result));

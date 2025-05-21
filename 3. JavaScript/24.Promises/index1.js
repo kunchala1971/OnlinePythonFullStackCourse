@@ -1,7 +1,7 @@
 //Basic Promise Creation
 const myPromise = new Promise((resolve, reject) => {
-  const success = true;
 
+  const success = false;
   if (success) {
     resolve("Promise resolved!");
   } else {
@@ -10,5 +10,5 @@ const myPromise = new Promise((resolve, reject) => {
 });
 
 myPromise
-  .then(result => console.log(result))
-  .catch(error => console.error(error));
+  .then((result) => console.log(result))
+  .catch((error) => console.error(error));

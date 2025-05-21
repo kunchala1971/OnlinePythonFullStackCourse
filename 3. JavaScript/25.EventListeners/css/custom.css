@@ -1,0 +1,17 @@
+    #hoverBox, #dragItem, #dropArea, #anim, #trans {
+      width: 150px; height: 100px; margin: 10px; border: 1px solid #000;
+    }
+    #anim {
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { background-color: red; }
+      50% { background-color: orange; }
+      100% { background-color: red; }
+    }
+    #trans {
+      transition: background-color 1s;
+    }
+    #trans:hover {
+      background-color: lightgreen;
+    }
